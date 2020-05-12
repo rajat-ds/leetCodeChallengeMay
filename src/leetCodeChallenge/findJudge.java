@@ -2,7 +2,7 @@ package leetCodeChallenge;
 
 public class findJudge {
 	 public int findJudge(int N, int[][] trust) {
-			//for town judge minimum people to trust is N-1
+			///for town judge minimum people to trust is N-1
 		        if(trust.length<N-1)return -1;
 		        int[] outtrust = new int[N+1];
 		    
