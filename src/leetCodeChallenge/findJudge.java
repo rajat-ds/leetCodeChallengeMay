@@ -6,7 +6,7 @@ public class findJudge {
 		        if(trust.length<N-1)return -1;
 		        int[] outtrust = new int[N+1];
 		    
-			//using a single array outtrust to record trust relationship
+			//using a single array out trust to record trust relationship
 		        for(int i = 0; i< trust.length; i++){
 		            outtrust[trust[i][1]]++; 
 		            outtrust[trust[i][0]]--;
